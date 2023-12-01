@@ -127,6 +127,7 @@ for (let valor in programmers) { // se utiliza valor para acceder al elemento de
     /* se utiliza valor para acceder al elemento del array programmers en la posición correspondiente. programadores ahora contiene el objeto que representa a una programadora en la posición actual del bucle. */
     console.log(`${valor}: ${programadores.name} ${programadores.lastname}, su aporte fue ${programadores.knowledge}`);
     /* 
+    template string ``
     ${valor}: Representa el índice actual del array programmers.
     ${programadores.name}: Accede al nombre de la programadora en la posición actual.
     ${programadores.lastname}: Accede al apellido de la programadora en la posición actual.
